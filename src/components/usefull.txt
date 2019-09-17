@@ -1,0 +1,43 @@
+
+//API call componentDidMount() method  most usefull
+/* let bearer = "" + "rahul";
+    let params = {
+      spid: 1,
+      name: "rahul"
+    };
+    let defaultOptions = {
+      method: "GET",
+      withCredentials: true,
+      //credentials: "include",
+      headers: {
+        Authorization: bearer,
+        "X-FP-API-KEY": "iphone", //it can be iPhone or your any other attribute
+        "Content-Type": "application/json"
+      }
+    };
+    let url = new URL("https://reqres.in/api/users");
+    Object.keys(params).forEach(key =>
+      url.searchParams.append(key, params[key])
+    );
+
+    fetch(url, {
+      ...defaultOptions
+    })
+      .then(res => res.json())
+      .then(
+        result => {
+          this.setState({
+            isLoaded: true,
+            items: result.data
+          });
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        error => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      ); */

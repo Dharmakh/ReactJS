@@ -1,0 +1,9 @@
+{
+  "employees": [
+    { "StatusCode": "BVS", "StatusDesc": "Byr Visit" },
+    { "StatusCode": "CLS", "StatusDesc": "Visit Closed" },
+    { "StatusCode": "ARR", "StatusDesc": "Arrived" },
+    { "StatusCode": "DEP", "StatusDesc": "Depart" },
+    { "StatusCode": "NWU", "StatusDesc": "Not Working" }
+  ]
+}
